@@ -1,0 +1,23 @@
+ion-header {
+  ion-toolbar {
+    --background: black;
+    ion-buttons {
+      color: white;
+    }
+  }
+}
+
+ion-list {
+  margin: 0;
+  ion-item {
+    --background: rgb(43, 91, 221);
+    border: 1px solid rgb(139, 139, 3);
+    ion-label {
+      color: white;
+      font-weight: bold;
+    }
+    ion-icon {
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+ion-toolbar {
+  --background: url('https://s2.glbimg.com/Gf9gOeG0rnZMLpjctyVFXuycDXw=/620x430/e.glbimg.com/og/ed/f/original/2022/01/27/loja_tim_metaverso_criptovoxels_2.png');
+  color: white;
+  padding: 10px;
+  --background-size: cover;
+}
+
+ion-content {
+  .espaco {
+    height: 200px;
+    background: url('https://s2.glbimg.com/Gf9gOeG0rnZMLpjctyVFXuycDXw=/620x430/e.glbimg.com/og/ed/f/original/2022/01/27/loja_tim_metaverso_criptovoxels_2.png');
+    background-size: cover;
+  }
+  ion-slides {
+    height: 90px; /* Ajuste a altura conforme necessário */
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+    ion-slide {
+      display: flex;
+      justify-content: space-around;
+      ion-img {
+        width: 100%;
+        height: 90%;
+        object-fit: cover;
+        margin: 8px;
+      }
+    }
+  }
+}
+
+.card {
+  background: rgb(43, 91, 221);
+  position: absolute;
+  top: 170px;
+  height: 260px;
+  width: 100%;
+  border-radius: 15px;
+  padding: 20px 10px;
+
+  ion-label {
+    margin-left: 10px;
+    background: white;
+  }
+}
